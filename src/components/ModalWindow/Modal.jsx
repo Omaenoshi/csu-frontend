@@ -1,5 +1,6 @@
 import React from 'react';
-import modalStyles from '../../components/ModalWindow/forModal.css';
+
+import modalStyles from './styles.css';
 
 const Modal = ({ children }) => (
     <div modalStyles={modalStyles} className="modal active">

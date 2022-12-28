@@ -1,8 +1,10 @@
 import React from 'react';
+
 import logo from '@Assets/images/logo.svg';
 import phone from '@Assets/images/phone.svg';
-import HeaderSlider from '@Components/Header/headerSlider';
+import HeaderSlider from '@Components/Header/HeaderSlider';
 import { useNavigate } from 'react-router-dom';
+import './styles.css';
 
 const HeaderMenu = () => {
     const navigate = useNavigate();

@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 10%;
+  background-color: #23415E;
+  width: 100%;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: 0 auto;
+  padding: 6% 0px;
+}
+.footer__about {
+  display: flex;
+  justify-content: space-between;
+  width: 23%;
+  color: #fff;
+}
+.footer__contacts {
+  color: #A9C5E0;
+  line-height: 19px;
+  font-size: 15px;
+}
+.first-column {
+  font-size: 15px;
+  line-height: 36px;
+}
+.second-column {
+  font-size: 15px;
+  line-height: 36px;
+}
+.footer__logo {
+  padding-bottom: 11%;
+}
+/*--------------------------------------------------------------*/

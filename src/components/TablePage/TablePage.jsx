@@ -1,12 +1,15 @@
 import React from 'react';
-import Block from '@Components/Main/Block';
+
+import Block from '@Components/TablePage/Block';
 import block1 from '@Assets/images/block1.png';
 import block2 from '@Assets/images/block2.png';
 import block3 from '@Assets/images/block3.png';
 import block4 from '@Assets/images/block4.png';
 import block5 from '@Assets/images/block5.png';
 
-const Main = () => {
+import './styles.css';
+
+const TablePage = () => {
     const blocks = [
         { id: 1, img: 1, title: 'Morning', description: 'I do...' },
         { id: 2, img: 2, title: 'Evening', description: 'I think...' },
@@ -51,4 +54,4 @@ const Main = () => {
     );
 };
 
-export default Main;
+export default TablePage;
