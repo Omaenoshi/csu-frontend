@@ -17,7 +17,10 @@ const HeaderMenu = () => {
                     <div className="header-menu__info">
                         <img className="header__logo" src={logo} />
                         <div className="info__title">
-                            | Курьерская служба доставки
+                            |
+                        </div>
+                        <div className="info__title">
+                            Курьерская служба доставки
                         </div>
                     </div>
                     <div className="header-menu__form">
