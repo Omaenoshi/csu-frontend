@@ -1,8 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 import logo from '@Assets/images/logo.svg';
 import phone from '@Assets/images/phone.svg';
+import './styles.css'
 
 const Header = () => {
+    const navigate = useNavigate();
+    const navigateToAuth = () => {
+        navigate('/auth');
+    };
+
     return (
         <div className="main-page__header">
             <div className="main-page__header-menu">
@@ -19,9 +27,9 @@ const Header = () => {
                             <div className="phone-title">8 (909) 023-12-51</div>
                         </div>
                         <div className="form__info-button">
-                            <a href="#">
+                            <button onClick={navigateToAuth}>
                                 <div className="button">Вход</div>
-                            </a>
+                            </button>
                         </div>
                     </div>
                 </div>

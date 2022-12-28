@@ -1,13 +1,32 @@
-import React from 'react';
-import { Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 
 import Main from '@Pages/Main';
+import ModalWindow from '@Components/ModalWindow';
+import Auth from '@Components/Auth';
 
 const App = () => {
+    const navigate = useNavigate();
+    const navigateToAuth = () => {
+        navigate('/auth');
+    };
     return (
-        <Routes>
-            <Route path="/" element={<Main />} />
-        </Routes>
+        <body>
+            <Routes>
+                <Route path="/" element={<Main />} />
+                <Route
+                    path="/auth"
+                    element={
+                        <div>
+                            {window.screen.width > 420 ? <Main /> : <></>}
+                            <ModalWindow>
+                                <Auth></Auth>
+                            </ModalWindow>
+                        </div>
+                    }
+                />
+            </Routes>
+        </body>
     );
 };
 

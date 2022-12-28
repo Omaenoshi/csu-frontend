@@ -53,14 +53,3 @@
     justify-content: space-between;
     width: 130px;
 }
-
-.button {
-    color: #E5E31F;
-    border-radius: 10px;
-    border: 1px #E5E31F solid;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
