@@ -33,3 +33,34 @@
   padding-bottom: 11%;
 }
 /*--------------------------------------------------------------*/
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 98px 133px 96px 35px;
+    justify-content: space-evenly;
+  }
+  .footer__content {
+    width: 50%;
+  }
+  .footer__logo {
+    max-width: 235px;
+  }
+  .footer__about {
+    margin-top: 96px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer {
+    flex-direction: column;
+  }
+  .footer__about {
+    justify-content: start;
+  }
+  .footer__contacts {
+    display: flex;
+    margin-top: 64px;
+  }
+  .first-column {
+    flex: 1 1 auto;
+    padding-left: 50px;
+  }
+}

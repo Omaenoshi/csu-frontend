@@ -37,3 +37,18 @@
   font-size: 15px;
 }
 /*--------------------------------------------------------------*/
+@media screen and (max-width: 820px) {
+  .tablePage__content-title {
+    padding: 96px 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .block {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .block {
+    width: 100%;
+  }
+}
