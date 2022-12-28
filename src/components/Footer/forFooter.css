@@ -1,0 +1,46 @@
+.footer{
+    margin-top: 180px;
+    background-color: #23415E;
+    width: 100%;
+    height: 300px;
+
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.footer__about{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    color: #fff;
+
+}
+
+.footer__contacts{
+    color: #A9C5E0;
+    line-height: 19px;
+    font-size: 15px;
+
+}
+
+.first-column{
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.second-column{
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.footer__logo{
+    padding-bottom: 110px;
+}
+
+/*--------------------------------------------------------------*/

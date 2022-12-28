@@ -1,7 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import close from '../../assets/images/closeIcon.png';
-import './styles.css';
+import close from '@Assets/images/close.png';
 
 const Auth = () => {
     const navigate = useNavigate();
@@ -10,25 +9,25 @@ const Auth = () => {
     };
     return (
         <form className="auth-form">
-            <button onClick={navigateToMain} className="auth-form__close">
+            <button onClick={navigateToMain} className="auth-formclose">
                 <img src={close}></img>
             </button>
-            <div className="auth-form__content">
-                <span className="auth-form__content__title">Авторизация</span>
-                <span className="auth-form__content__subtitle">
+            <div className="auth-formcontent">
+                <span className="auth-formcontenttitle">Авторизация</span>
+                <span className="auth-formcontentsubtitle">
                     Введите логин и пароль, чтобы войти в личный кабинет
                 </span>
                 <input
                     type="text"
-                    className="auth-form__content__input"
+                    className="auth-formcontentinput"
                     placeholder="Логин"
                 ></input>
                 <input
                     type="text"
-                    className="auth-form__content__input"
+                    className="auth-formcontentinput"
                     placeholder="Пароль"
                 ></input>
-                <button className="auth-form__content__sub" type="submit">
+                <button className="auth-formcontentsub" type="submit">
                     Войти
                 </button>
             </div>

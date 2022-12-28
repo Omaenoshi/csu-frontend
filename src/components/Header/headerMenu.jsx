@@ -1,11 +1,10 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
-
 import logo from '@Assets/images/logo.svg';
 import phone from '@Assets/images/phone.svg';
-import './styles.css'
+import HeaderSlider from '@Components/Header/headerSlider';
+import { useNavigate } from 'react-router-dom';
 
-const Header = () => {
+const HeaderMenu = () => {
     const navigate = useNavigate();
     const navigateToAuth = () => {
         navigate('/auth');
@@ -27,15 +26,16 @@ const Header = () => {
                             <div className="phone-title">8 (909) 023-12-51</div>
                         </div>
                         <div className="form__info-button">
-                            <button onClick={navigateToAuth}>
-                                <div className="button">Вход</div>
+                            <button className="button" onClick={navigateToAuth}>
+                                Вход
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
+            <HeaderSlider />
         </div>
     );
 };
 
-export default Header;
+export default HeaderMenu;
