@@ -1,9 +1,66 @@
-.main-page__title {
-    color: blue;
-    
+.header__logo{
+    width: 100px;
+    height: 14px;
 }
 
-.main-page__cat-img {
+.logo__phone{
+    height: 14px;
+    width: 14px;
+}
+
+.phone-title{
+    color: #A9C5E0;
+}
+
+.info__title{
+    color: #A9C5E0;
+}
+
+.main-page__header{
+    background: linear-gradient(#2B5377, #33638F);
+    height:  800px;
+    width: 100%;
+}
+
+.main-page__header-menu__content{
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 230px;
+}
+
+.main-page__header-menu{
+    width: 100px;
+}
+
+.header-menu__info{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.header-menu__form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 300px;
-    height: auto;
+
+}
+
+.form__info-phone{
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+}
+
+.button {
+    color: #E5E31F;
+    border-radius: 10px;
+    border: 1px #E5E31F solid;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
